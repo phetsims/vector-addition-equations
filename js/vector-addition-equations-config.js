@@ -40,6 +40,8 @@ require.config( {
     SUN: '../../sun/js',
     TAMBO: '../../tambo/js',
     TANDEM: '../../tandem/js',
+    TWIXT: '../../twixt/js',
+    VECTOR_ADDITION: '../../vector-addition/js',
     VECTOR_ADDITION_EQUATIONS: '.'
   },
 

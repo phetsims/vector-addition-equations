@@ -9,9 +9,9 @@ define( require => {
   'use strict';
 
   // modules
+  const EquationsScreen = require( 'VECTOR_ADDITION/equations/EquationsScreen' );
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
-  const VectorAdditionEquationsScreen = require( 'VECTOR_ADDITION_EQUATIONS/vector-addition-equations/VectorAdditionEquationsScreen' );
   const Tandem = require( 'TANDEM/Tandem' );
 
   // strings
@@ -30,11 +30,9 @@ define( require => {
     }
   };
 
-  // launch the sim - beware that scenery Image nodes created outside of SimLauncher.launch() will have zero bounds
-  // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
   SimLauncher.launch( () => {
     const sim = new Sim( vectorAdditionEquationsTitleString, [
-      new VectorAdditionEquationsScreen( Tandem.rootTandem.createTandem( 'vectorAdditionEquationsScreen' ) )
+      new EquationsScreen( Tandem.rootTandem.createTandem( 'vectorAdditionEquationsScreen' ) )
     ], simOptions );
     sim.start();
   } );

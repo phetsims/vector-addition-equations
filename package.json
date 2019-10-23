@@ -13,6 +13,10 @@
     "requirejsNamespace": "VECTOR_ADDITION_EQUATIONS",
     "simulation": true,
     "runnable": true,
+    "phetLibs": [
+      "vector-addition",
+      "twixt"
+    ],
     "supportedBrands": [
       "phet",
       "adapted-from-phet"
