@@ -13,27 +13,21 @@ define( require => {
   const Sim = require( 'JOIST/Sim' );
   const SimLauncher = require( 'JOIST/SimLauncher' );
   const Tandem = require( 'TANDEM/Tandem' );
+  const VectorAdditionConstants = require( 'VECTOR_ADDITION/common/VectorAdditionConstants' );
 
   // strings
   const vectorAdditionEquationsTitleString = require( 'string!VECTOR_ADDITION_EQUATIONS/vector-addition-equations.title' );
 
-  const simOptions = {
-    credits: {
-      //TODO fill in credits, all of these fields are optional, see joist.CreditsNode
-      leadDesign: '',
-      softwareDevelopment: '',
-      team: '',
-      qualityAssurance: '',
-      graphicArts: '',
-      soundDesign: '',
-      thanks: ''
-    }
-  };
-
   SimLauncher.launch( () => {
-    const sim = new Sim( vectorAdditionEquationsTitleString, [
+
+    const screens = [
       new EquationsScreen( Tandem.rootTandem.createTandem( 'vectorAdditionEquationsScreen' ) )
-    ], simOptions );
+    ];
+
+    const sim = new Sim( vectorAdditionEquationsTitleString, screens, {
+      credits: VectorAdditionConstants.CREDITS
+    } );
+
     sim.start();
   } );
 } );
