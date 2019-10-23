@@ -1,5 +1,5 @@
 {
-  "comment": "# vector-addition-equations 1.0.0-dev.1 Tue Oct 22 2019 20:39:06 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# vector-addition-equations 1.0.0-rc.0 Wed Oct 23 2019 11:32:55 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "bd6e3ed0a8b6fea73a4a176d5364809666833e58",
     "branch": "master"
@@ -73,7 +73,7 @@
     "branch": "master"
   },
   "tandem": {
-    "sha": "89cf5d3559683a34484eac2eefc6a73b06551b8f",
+    "sha": "c3496e808ee5820249cf432b40cd776b35121a08",
     "branch": "master"
   },
   "twixt": {
@@ -81,15 +81,15 @@
     "branch": "master"
   },
   "utterance-queue": {
-    "sha": "0cace57cddb4eb8c3af5b4b68aaea8cf941b8c18",
+    "sha": "684542f246bb9588ded83c214f945231cdd6b39c",
     "branch": "master"
   },
   "vector-addition": {
-    "sha": "a85b61841d278aebb0f1504ffe4b4f855f96b67c",
+    "sha": "bb60851c2013a98a719668638d0b713f56f43a6d",
     "branch": "master"
   },
   "vector-addition-equations": {
-    "sha": "019418279daa8c28b4f7bf674745ce1fe70db48a",
-    "branch": "master"
+    "sha": "c2305d5362e8d14b0600a7117aee512e544292be",
+    "branch": "1.0"
   }
 }
