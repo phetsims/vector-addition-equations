@@ -21,7 +21,7 @@ define( require => {
   SimLauncher.launch( () => {
 
     const screens = [
-      new EquationsScreen( Tandem.rootTandem.createTandem( 'vectorAdditionEquationsScreen' ) )
+      new EquationsScreen( Tandem.ROOT.createTandem( 'vectorAdditionEquationsScreen' ) )
     ];
 
     const sim = new Sim( vectorAdditionEquationsTitleString, screens, {
