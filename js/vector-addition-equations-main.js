@@ -5,29 +5,25 @@
  *
  * @author Chris Malley (PixelZoom, Inc.)
  */
-define( require => {
-  'use strict';
 
-  // modules
-  const EquationsScreen = require( 'VECTOR_ADDITION/equations/EquationsScreen' );
-  const Sim = require( 'JOIST/Sim' );
-  const SimLauncher = require( 'JOIST/SimLauncher' );
-  const Tandem = require( 'TANDEM/Tandem' );
-  const VectorAdditionConstants = require( 'VECTOR_ADDITION/common/VectorAdditionConstants' );
+import Sim from '../../joist/js/Sim.js';
+import SimLauncher from '../../joist/js/SimLauncher.js';
+import Tandem from '../../tandem/js/Tandem.js';
+import VectorAdditionConstants from '../../vector-addition/js/common/VectorAdditionConstants.js';
+import EquationsScreen from '../../vector-addition/js/equations/EquationsScreen.js';
+import vectorAdditionEquationsStrings from './vector-addition-equations-strings.js';
 
-  // strings
-  const vectorAdditionEquationsTitleString = require( 'string!VECTOR_ADDITION_EQUATIONS/vector-addition-equations.title' );
+const vectorAdditionEquationsTitleString = vectorAdditionEquationsStrings[ 'vector-addition-equations' ].title;
 
-  SimLauncher.launch( () => {
+SimLauncher.launch( () => {
 
-    const screens = [
-      new EquationsScreen( Tandem.ROOT.createTandem( 'vectorAdditionEquationsScreen' ) )
-    ];
+  const screens = [
+    new EquationsScreen( Tandem.ROOT.createTandem( 'vectorAdditionEquationsScreen' ) )
+  ];
 
-    const sim = new Sim( vectorAdditionEquationsTitleString, screens, {
-      credits: VectorAdditionConstants.CREDITS
-    } );
-
-    sim.start();
+  const sim = new Sim( vectorAdditionEquationsTitleString, screens, {
+    credits: VectorAdditionConstants.CREDITS
   } );
+
+  sim.start();
 } );
