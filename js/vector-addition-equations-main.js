@@ -11,7 +11,7 @@ import SimLauncher from '../../joist/js/SimLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import VectorAdditionConstants from '../../vector-addition/js/common/VectorAdditionConstants.js';
 import EquationsScreen from '../../vector-addition/js/equations/EquationsScreen.js';
-import vectorAdditionEquationsStrings from './vector-addition-equations-strings.js';
+import vectorAdditionEquationsStrings from './vectorAdditionEquationsStrings.js';
 
 const vectorAdditionEquationsTitleString = vectorAdditionEquationsStrings[ 'vector-addition-equations' ].title;
 
