@@ -13,15 +13,13 @@ import VectorAdditionConstants from '../../vector-addition/js/common/VectorAddit
 import EquationsScreen from '../../vector-addition/js/equations/EquationsScreen.js';
 import vectorAdditionEquationsStrings from './vectorAdditionEquationsStrings.js';
 
-const vectorAdditionEquationsTitleString = vectorAdditionEquationsStrings[ 'vector-addition-equations' ].title;
-
 SimLauncher.launch( () => {
 
   const screens = [
     new EquationsScreen( Tandem.ROOT.createTandem( 'vectorAdditionEquationsScreen' ) )
   ];
 
-  const sim = new Sim( vectorAdditionEquationsTitleString, screens, {
+  const sim = new Sim( vectorAdditionEquationsStrings[ 'vector-addition-equations' ].title, screens, {
     credits: VectorAdditionConstants.CREDITS
   } );
 
