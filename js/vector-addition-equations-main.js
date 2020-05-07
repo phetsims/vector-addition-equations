@@ -7,13 +7,13 @@
  */
 
 import Sim from '../../joist/js/Sim.js';
-import SimLauncher from '../../joist/js/SimLauncher.js';
+import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import VectorAdditionConstants from '../../vector-addition/js/common/VectorAdditionConstants.js';
 import EquationsScreen from '../../vector-addition/js/equations/EquationsScreen.js';
 import vectorAdditionEquationsStrings from './vectorAdditionEquationsStrings.js';
 
-SimLauncher.launch( () => {
+simLauncher.launch( () => {
 
   const screens = [
     new EquationsScreen( Tandem.ROOT.createTandem( 'vectorAdditionEquationsScreen' ) )
