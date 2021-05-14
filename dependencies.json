@@ -1,5 +1,5 @@
 {
-  "comment": "# vector-addition-equations 1.0.1-rc.1 Mon May 10 2021 12:35:45 GMT-0600 (Mountain Daylight Time)",
+  "comment": "# vector-addition-equations 1.0.1-rc.2 Fri May 14 2021 08:40:07 GMT-0600 (Mountain Daylight Time)",
   "assert": {
     "sha": "bd6e3ed0a8b6fea73a4a176d5364809666833e58",
     "branch": "HEAD"
@@ -46,7 +46,7 @@
   },
   "phetmarks": {
     "sha": "c18b406e30a9c9a00e13ed96fce6e0fd5810ae5b",
-    "branch": "vector-addition-equations-1.0"
+    "branch": "HEAD"
   },
   "query-string-machine": {
     "sha": "1a087d03e660caca68406f4ac92ae08510a506a8",
@@ -89,7 +89,7 @@
     "branch": "HEAD"
   },
   "vector-addition-equations": {
-    "sha": "025af82f9cd68ccb7ea503240df37e4136769db1",
+    "sha": "76e2008fb0b2a2d808271059722e436b199ddac9",
     "branch": "1.0"
   }
 }
