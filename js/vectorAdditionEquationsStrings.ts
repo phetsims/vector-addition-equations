@@ -3,11 +3,17 @@
 /**
  * Auto-generated from modulify, DO NOT manually modify.
  */
-
+/* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
 import vectorAdditionEquations from './vectorAdditionEquations.js';
 
-const vectorAdditionEquationsStrings = getStringModule( 'VECTOR_ADDITION_EQUATIONS' );
+type StringsType = {
+  'vector-addition-equations': {
+    'title': string
+  }
+};
+
+const vectorAdditionEquationsStrings = getStringModule( 'VECTOR_ADDITION_EQUATIONS' ) as StringsType;
 
 vectorAdditionEquations.register( 'vectorAdditionEquationsStrings', vectorAdditionEquationsStrings );
 
