@@ -5,11 +5,13 @@
  */
 /* eslint-disable */
 import getStringModule from '../../chipper/js/getStringModule.js';
+import TReadOnlyProperty from '../../axon/js/TReadOnlyProperty.js';
 import vectorAdditionEquations from './vectorAdditionEquations.js';
 
 type StringsType = {
   'vector-addition-equations': {
     'title': string;
+    'titleProperty': TReadOnlyProperty<string>;
   }
 };
 
