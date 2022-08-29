@@ -11,7 +11,7 @@ import vectorAdditionEquations from './vectorAdditionEquations.js';
 type StringsType = {
   'vector-addition-equations': {
     'title': string;
-    'titleProperty': TReadOnlyProperty<string>;
+    'titleStringProperty': TReadOnlyProperty<string>;
   }
 };
 
