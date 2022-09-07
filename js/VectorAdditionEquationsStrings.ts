@@ -15,8 +15,8 @@ type StringsType = {
   }
 };
 
-const vectorAdditionEquationsStrings = getStringModule( 'VECTOR_ADDITION_EQUATIONS' ) as StringsType;
+const VectorAdditionEquationsStrings = getStringModule( 'VECTOR_ADDITION_EQUATIONS' ) as StringsType;
 
-vectorAdditionEquations.register( 'vectorAdditionEquationsStrings', vectorAdditionEquationsStrings );
+vectorAdditionEquations.register( 'VectorAdditionEquationsStrings', VectorAdditionEquationsStrings );
 
-export default vectorAdditionEquationsStrings;
+export default VectorAdditionEquationsStrings;
