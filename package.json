@@ -21,6 +21,9 @@
       "phet",
       "adapted-from-phet"
     ],
+    "simFeatures": {
+      "supportsDynamicLocale": true
+    },
     "supportsOutputJS": true
   },
   "eslintConfig": {

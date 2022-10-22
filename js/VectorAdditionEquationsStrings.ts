@@ -10,7 +10,6 @@ import vectorAdditionEquations from './vectorAdditionEquations.js';
 
 type StringsType = {
   'vector-addition-equations': {
-    'title': string;
     'titleStringProperty': LinkableProperty<string>;
   }
 };
