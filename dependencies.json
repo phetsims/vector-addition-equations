@@ -29,7 +29,7 @@
     "branch": "HEAD"
   },
   "phet-core": {
-    "sha": "1461ebc93d2e6265a7f59d5d3ff191a9879948c5",
+    "sha": "553e53108f3bde1039583fd37164507c69b7393a",
     "branch": "HEAD"
   },
   "phet-io": {
@@ -89,7 +89,7 @@
     "branch": "HEAD"
   },
   "vector-addition-equations": {
-    "sha": "6bbcc9612f6a3fbf38921f0bd2e84b14eee17958",
+    "sha": "bd04a81fddd66f0e8de3fe96d7b349f546ba2e6d",
     "branch": "1.0"
   }
 }
