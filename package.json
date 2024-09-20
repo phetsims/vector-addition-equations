@@ -47,6 +47,11 @@
               "ts-nocheck": true
             }
           ]
+        },
+        "parserOptions": {
+          "project": [
+            "../vector-addition-equations/tsconfig.json"
+          ]
         }
       }
     ]
