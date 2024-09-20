@@ -50,7 +50,7 @@
         },
         "parserOptions": {
           "project": [
-            "../vector-addition-equations/tsconfig.json"
+            "../chipper/tsconfig/eslint-all/tsconfig.json"
           ]
         }
       }
