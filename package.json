@@ -18,8 +18,7 @@
       "twixt"
     ],
     "supportedBrands": [
-      "phet",
-      "adapted-from-phet"
+      "phet"
     ],
     "simFeatures": {
       "supportsDynamicLocale": true,
