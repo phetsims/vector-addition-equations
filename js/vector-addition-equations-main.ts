@@ -12,6 +12,9 @@ import Tandem from '../../tandem/js/Tandem.js';
 import VectorAdditionConstants from '../../vector-addition/js/common/VectorAdditionConstants.js';
 import EquationsScreen from '../../vector-addition/js/equations/EquationsScreen.js';
 import VectorAdditionEquationsStrings from './VectorAdditionEquationsStrings.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
+import VectorAdditionPreferencesNode from '../../vector-addition/js/common/view/VectorAdditionPreferencesNode.js';
+import VectorAdditionPreferences from '../../vector-addition/js/common/model/VectorAdditionPreferences.js';
 
 simLauncher.launch( () => {
 
@@ -20,7 +23,16 @@ simLauncher.launch( () => {
   ];
 
   const sim = new Sim( VectorAdditionEquationsStrings[ 'vector-addition-equations' ].titleStringProperty, screens, {
-    credits: VectorAdditionConstants.CREDITS
+    credits: VectorAdditionConstants.CREDITS,
+
+    // Preferences
+    preferencesModel: new PreferencesModel( {
+      simulationOptions: {
+        customPreferences: [ {
+          createContent: tandem => new VectorAdditionPreferencesNode( VectorAdditionPreferences.instance, tandem )
+        } ]
+      }
+    } )
   } );
 
   sim.start();
