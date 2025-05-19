@@ -2,4 +2,4 @@
 
 _Vector Addition: Equations_ consists of the _Equations_ screen from the _Vector Addition_ simulation.
 
-Please refer to the release notes at https://github.com/phetsims/vector-addition/blob/main/doc/release-notes.md.
+Please refer to the release notes for _Vector Addition_ at https://github.com/phetsims/vector-addition/blob/main/doc/release-notes.md.
