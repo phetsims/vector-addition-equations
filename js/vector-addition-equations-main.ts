@@ -18,11 +18,13 @@ import VectorAdditionPreferences from '../../vector-addition/js/common/model/Vec
 
 simLauncher.launch( () => {
 
+  const titleStringProperty = VectorAdditionEquationsStrings[ 'vector-addition-equations' ].titleStringProperty;
+
   const screens = [
     new EquationsScreen( Tandem.ROOT.createTandem( 'vectorAdditionEquationsScreen' ) )
   ];
 
-  const sim = new Sim( VectorAdditionEquationsStrings[ 'vector-addition-equations' ].titleStringProperty, screens, {
+  const options = {
     credits: VectorAdditionConstants.CREDITS,
 
     // Preferences
@@ -33,7 +35,8 @@ simLauncher.launch( () => {
         } ]
       }
     } )
-  } );
+  };
 
+  const sim = new Sim( titleStringProperty, screens, options );
   sim.start();
 } );
