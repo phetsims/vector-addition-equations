@@ -25,6 +25,7 @@ simLauncher.launch( () => {
   ];
 
   const options = {
+    phetioDesigned: true,
     credits: VectorAdditionConstants.CREDITS,
 
     // Preferences
