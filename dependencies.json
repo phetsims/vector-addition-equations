@@ -1,107 +1,107 @@
 {
-  "comment": "# vector-addition-equations 1.1.0-dev.5 Mon Nov 04 2024 16:46:15 GMT-0700 (Mountain Standard Time)",
+  "comment": "# vector-addition-equations 1.2.0-rc.0 Fri Dec 05 2025 11:34:12 GMT-0700 (Mountain Standard Time)",
   "assert": {
-    "sha": "e518fe8db0a776a67e60e9c2110cd8411a21a007",
+    "sha": "1a4637cfff70e7e8b0844dc43848a86ae89b4cf5",
     "branch": "main"
   },
   "axon": {
-    "sha": "f3cc74476cf1cf023a4b566839cb37382a911edd",
+    "sha": "eb375db9e99ab4b104e99badc492059c5a1c6ccf",
     "branch": "main"
   },
   "brand": {
-    "sha": "ae6113e264048e83a8087154fbac78b38bdeb763",
+    "sha": "0017406b43899b7acc9b4b2d942d71b72568b514",
     "branch": "main"
   },
   "chipper": {
-    "sha": "8804c8f7f9ea1ab164e83e064b65d5616a274031",
+    "sha": "2b65779fc15e72b9895db2b1b959427f671b065a",
     "branch": "main"
   },
   "dot": {
-    "sha": "a9015a829dd2bea5959c0629330e8cf7ca441b28",
+    "sha": "9d39bd282a981bbb05b19c99d7286f4814803e05",
     "branch": "main"
   },
   "joist": {
-    "sha": "fbf196e199e0e02bdd617dce0f93833666c30ae5",
+    "sha": "80b45ab66797c145194af683d521a054adad03b1",
     "branch": "main"
   },
   "kite": {
-    "sha": "87b6a55dc55aee166c4670e51970c10637728bce",
+    "sha": "c2247535a060fcc9cf5d3b82f76d8a65ee451d37",
     "branch": "main"
   },
   "perennial-alias": {
-    "sha": "4892575778ce7afc8bbaf6058f5b37662767b398",
+    "sha": "ff332d80b9406a11677826e7428f56dc1a4c8ab5",
     "branch": "main"
   },
   "phet-core": {
-    "sha": "123826a127646fb8520ad2e4458aa1fe831ede33",
+    "sha": "baf98423a2d17dd7993bc502f21bc12658c0dca6",
     "branch": "main"
   },
   "phet-io": {
-    "sha": "fabcbce5a33ae33ac68754d72cf03737d00ddba5",
+    "sha": "c12ba32f5a03413c8f84e9d70728878b18e16b9e",
     "branch": "main"
   },
   "phet-io-sim-specific": {
-    "sha": "54d95c9243489e01fad4ffdc74888be392e43a39",
+    "sha": "8c2f9f4b534d6c17afbe388dbc071d241c9f884c",
     "branch": "main"
   },
   "phet-io-wrappers": {
-    "sha": "8d14783e561b7c9a6d0fe42e26b1835206ee84b7",
+    "sha": "f48259a1d221831e2175eb1b3af2fcc8413069b1",
     "branch": "main"
   },
   "phetcommon": {
-    "sha": "b641169e493760258b1a3511a09a727f0a7a3a03",
+    "sha": "6343150359f1fafb499144c7ea35abc465ebf47b",
     "branch": "main"
   },
   "phetmarks": {
-    "sha": "3f9d9acd89e21dba2b4c2534822858b6906bad44",
+    "sha": "1ea943a9f23a38646e764ed7cb679c7381c2df8b",
     "branch": "main"
   },
   "query-string-machine": {
-    "sha": "a78d000ec5a3cfe8a0b77de2f0b2fa8aef5108ea",
+    "sha": "e0b764e61a19a08a747c0b2152656bac5420a0b1",
     "branch": "main"
   },
   "scenery": {
-    "sha": "9c8421400dd4cc264b2069c80c6ba1fc51e9a89a",
+    "sha": "e061f0cc28be8ee7667878bda53106e48dac2b11",
     "branch": "main"
   },
   "scenery-phet": {
-    "sha": "10ea3db8801c8ca50ec1c9de7866fedcb9a35214",
+    "sha": "de9e6533541b874326b540099a677c6e0eedf197",
     "branch": "main"
   },
   "sherpa": {
-    "sha": "8a93a51cdbea08e53df69a0df8e53de9f7797e08",
+    "sha": "c1f6b01a53a0caa02f4d5e09303d078772db2050",
     "branch": "main"
   },
   "studio": {
-    "sha": "69958d94b8193d83b854387a6189167c98625888",
+    "sha": "48279c0a5b20f59072bdad8b8cfbd20c76193141",
     "branch": "main"
   },
   "sun": {
-    "sha": "6aa1017447957ea39e2b3c2f046cefc297854887",
+    "sha": "e3bbc3858a43268bc273d673916a1a9ee9816f67",
     "branch": "main"
   },
   "tambo": {
-    "sha": "d1eb357492a487d88e6afcd2ab7c25b273420b21",
+    "sha": "691b39440cac26e562137a052fc27629d2d5897c",
     "branch": "main"
   },
   "tandem": {
-    "sha": "ca3997d40a19a65ea668b0e4fc9d7c36dc55c1df",
+    "sha": "b3f06bccf16ca8ee28bb6bd977d6d9ecdbe130f5",
     "branch": "main"
   },
   "twixt": {
-    "sha": "a2b4bf5d14186073a2fb797ee41467d3e680dc4a",
+    "sha": "49b9b291339b3474036568ac6eddf71c973958cb",
     "branch": "main"
   },
   "utterance-queue": {
-    "sha": "5c053e699219daf407678137df71a3ba8c4ffd79",
+    "sha": "59d9482d013886c8560f6e5702385a6f776c4c97",
     "branch": "main"
   },
   "vector-addition": {
-    "sha": "c5b61394773123ebf04a9fac5065f196cad0174d",
+    "sha": "5664e97815d99f8e92e78f48ac0d9a45fdf00a35",
     "branch": "main"
   },
   "vector-addition-equations": {
-    "sha": "a688a7f2571a676ede87cec26e27eead4ab0ef75",
-    "branch": "main"
+    "sha": "7bdef2de2905450eade2d90af451aae5d4fe8f80",
+    "branch": "1.2"
   }
 }
