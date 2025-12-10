@@ -6,22 +6,22 @@
  * @author Chris Malley (PixelZoom, Inc.)
  */
 
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import Tandem from '../../tandem/js/Tandem.js';
+import VectorAdditionPreferences from '../../vector-addition/js/common/model/VectorAdditionPreferences.js';
 import VectorAdditionConstants from '../../vector-addition/js/common/VectorAdditionConstants.js';
+import VectorAdditionPreferencesNode from '../../vector-addition/js/common/view/VectorAdditionPreferencesNode.js';
 import EquationsScreen from '../../vector-addition/js/equations/EquationsScreen.js';
 import VectorAdditionEquationsStrings from './VectorAdditionEquationsStrings.js';
-import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
-import VectorAdditionPreferencesNode from '../../vector-addition/js/common/view/VectorAdditionPreferencesNode.js';
-import VectorAdditionPreferences from '../../vector-addition/js/common/model/VectorAdditionPreferences.js';
 
 simLauncher.launch( () => {
 
   const titleStringProperty = VectorAdditionEquationsStrings[ 'vector-addition-equations' ].titleStringProperty;
 
   const screens = [
-    new EquationsScreen( Tandem.ROOT.createTandem( 'vectorAdditionEquationsScreen' ) )
+    new EquationsScreen( Tandem.ROOT.createTandem( 'equationsScreen' ) )
   ];
 
   const options = {
