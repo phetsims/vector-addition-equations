@@ -97,11 +97,11 @@
     "branch": "HEAD"
   },
   "vector-addition": {
-    "sha": "abc4755d8735da6c8306f27074144aa91ee7409b",
+    "sha": "7135414d66c5fd35d8836db6c8db351181142f18",
     "branch": "HEAD"
   },
   "vector-addition-equations": {
-    "sha": "85c29690c395c9d3986bb5a5a7d140356552eda8",
+    "sha": "07f02a4dc02c07b7a2ca6afa0f7901f9a4aa4ceb",
     "branch": "1.2"
   }
 }
