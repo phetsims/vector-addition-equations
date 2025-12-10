@@ -41,7 +41,7 @@
     "branch": "HEAD"
   },
   "phet-io-sim-specific": {
-    "sha": "609de6a8ce51557ed657ac94c873fff0b45473ff",
+    "sha": "f5062a5a11b9fecf93d296fa44cfd146f60e04a3",
     "branch": "HEAD"
   },
   "phet-io-wrappers": {
@@ -101,7 +101,7 @@
     "branch": "HEAD"
   },
   "vector-addition-equations": {
-    "sha": "3554fd49edb4fdebfc0c846b8a7ae1287ec60fe6",
+    "sha": "c330c0b6ef98e6c8221a3b1d1953c75f2983627c",
     "branch": "1.2"
   }
 }
