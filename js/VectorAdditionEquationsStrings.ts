@@ -19,6 +19,4 @@ type StringsType = {
 
 const VectorAdditionEquationsStrings = getStringModule( 'VECTOR_ADDITION_EQUATIONS' ) as StringsType;
 
-vectorAdditionEquations.register( 'VectorAdditionEquationsStrings', VectorAdditionEquationsStrings );
-
 export default VectorAdditionEquationsStrings;
