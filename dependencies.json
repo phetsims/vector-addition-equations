@@ -9,7 +9,7 @@
     "branch": "HEAD"
   },
   "brand": {
-    "sha": "cd2e93af908ea003c2aa12babc0bf35b913e8640",
+    "sha": "a3b4ca3b56bd47e2bb61cddebe3478b89eae0f3e",
     "branch": "HEAD"
   },
   "chipper": {
@@ -101,7 +101,7 @@
     "branch": "HEAD"
   },
   "vector-addition-equations": {
-    "sha": "3adfaac5395f6ca996b28e2eb4c850d5f5d6757a",
+    "sha": "a3e7874fd13bf9716bf4e39289eacb028d8c86de",
     "branch": "1.2"
   }
 }
