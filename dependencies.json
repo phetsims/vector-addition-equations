@@ -61,7 +61,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "bd192e948c8c040b3f6b818c5245f73dc3fcd35d",
+    "sha": "985e8e2e27c0b73efb9263a0552dee35100566d6",
     "branch": "HEAD"
   },
   "scenery-phet": {
@@ -101,7 +101,7 @@
     "branch": "HEAD"
   },
   "vector-addition-equations": {
-    "sha": "3a4f379157ae0d6ba24a1afb2f42487cb7b13480",
+    "sha": "6bad6731aa6963a72a23e69978adec4e35579665",
     "branch": "1.2"
   }
 }
