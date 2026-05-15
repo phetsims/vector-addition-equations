@@ -14,11 +14,11 @@ import VectorAdditionPreferences from '../../vector-addition/js/common/model/Vec
 import VectorAdditionConstants from '../../vector-addition/js/common/VectorAdditionConstants.js';
 import VectorAdditionPreferencesNode from '../../vector-addition/js/common/view/VectorAdditionPreferencesNode.js';
 import EquationsScreen from '../../vector-addition/js/equations/EquationsScreen.js';
-import VectorAdditionEquationsStrings from './VectorAdditionEquationsStrings.js';
+import VectorAdditionEquationsFluent from './VectorAdditionEquationsFluent.js';
 
 simLauncher.launch( () => {
 
-  const titleStringProperty = VectorAdditionEquationsStrings[ 'vector-addition-equations' ].titleStringProperty;
+  const titleStringProperty = VectorAdditionEquationsFluent[ 'vector-addition-equations' ].titleStringProperty;
 
   const screens = [
     new EquationsScreen( Tandem.ROOT.createTandem( 'equationsScreen' ) )
